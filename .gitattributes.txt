@@ -1,0 +1,10 @@
+# Set the default behavior for all files (text=auto).
+* text=auto
+
+# Explicitly declare text files that should always be normalized.
+*.txt text
+*.csv text
+
+# Declare files that should have CRLF line endings on checkout.
+# Adjust this based on your specific file types.
+*.sln text eol=crlf
